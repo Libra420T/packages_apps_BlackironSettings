@@ -182,6 +182,12 @@
 
     <PreferenceCategory
         android:title="@string/statusbar_extra_padding_category">
+        
+        <com.blackiron.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_dual_statusbar_mod"
+            android:title="@string/use_statusbar_dual_row_mod_title"
+            android:summary="@string/use_statusbar_dual_row_mod_summary"
+            android:defaultValue="false" />
 
         <com.blackiron.settings.preferences.SystemSettingSeekBarPreference
             android:key="statusbar_extra_padding_start"
